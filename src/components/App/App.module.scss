@@ -1,0 +1,10 @@
+@import "../../helpers/scss/mixin.scss";
+@import "../../helpers/scss/variables.scss";
+
+.header {
+  height: $height_header;
+  width: 100%;
+  text-align: center;
+  line-height: $height_header;
+  border-bottom: 1px solid rgba($text-color, 0.2);
+}
